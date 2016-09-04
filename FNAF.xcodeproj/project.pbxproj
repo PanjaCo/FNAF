@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF94687C1C07A26C00E8FDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94687B1C07A26C00E8FDAC /* AppDelegate.swift */; };
+		BF94687E1C07A26C00E8FDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94687D1C07A26C00E8FDAC /* ViewController.swift */; };
+		BF9468801C07A26C00E8FDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF94687F1C07A26C00E8FDAC /* Assets.xcassets */; };
+		BF9468831C07A26C00E8FDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9468811C07A26C00E8FDAC /* Main.storyboard */; };
+		BF94688E1C07A26C00E8FDAC /* FNAFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94688D1C07A26C00E8FDAC /* FNAFTests.swift */; };
+		BF9468991C07A26D00E8FDAC /* FNAFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9468981C07A26D00E8FDAC /* FNAFUITests.swift */; };
+		BF9468A71C07B41000E8FDAC /* Five Nights at Freddy's.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF9468A61C07A31000E8FDAC /* Five Nights at Freddy's.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF94688A1C07A26C00E8FDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9468701C07A26C00E8FDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9468771C07A26C00E8FDAC;
+			remoteInfo = FNAF;
+		};
+		BF9468951C07A26C00E8FDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9468701C07A26C00E8FDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9468771C07A26C00E8FDAC;
+			remoteInfo = FNAF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9468781C07A26C00E8FDAC /* FNAF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNAF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF94687B1C07A26C00E8FDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF94687D1C07A26C00E8FDAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF94687F1C07A26C00E8FDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9468821C07A26C00E8FDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9468841C07A26C00E8FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9468891C07A26C00E8FDAC /* FNAFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNAFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF94688D1C07A26C00E8FDAC /* FNAFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FNAFTests.swift; sourceTree = "<group>"; };
+		BF94688F1C07A26C00E8FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9468941C07A26C00E8FDAC /* FNAFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNAFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9468981C07A26D00E8FDAC /* FNAFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FNAFUITests.swift; sourceTree = "<group>"; };
+		BF94689A1C07A26D00E8FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9468A61C07A31000E8FDAC /* Five Nights at Freddy's.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Five Nights at Freddy's.ttf"; path = "../../../../Downloads/Five-Nights-at-Freddys/Five Nights at Freddy's.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9468751C07A26C00E8FDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468861C07A26C00E8FDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468911C07A26C00E8FDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF94686F1C07A26C00E8FDAC = {
+			isa = PBXGroup;
+			children = (
+				BF94687A1C07A26C00E8FDAC /* FNAF */,
+				BF94688C1C07A26C00E8FDAC /* FNAFTests */,
+				BF9468971C07A26D00E8FDAC /* FNAFUITests */,
+				BF9468791C07A26C00E8FDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9468791C07A26C00E8FDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9468781C07A26C00E8FDAC /* FNAF.app */,
+				BF9468891C07A26C00E8FDAC /* FNAFTests.xctest */,
+				BF9468941C07A26C00E8FDAC /* FNAFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF94687A1C07A26C00E8FDAC /* FNAF */ = {
+			isa = PBXGroup;
+			children = (
+				BF94687B1C07A26C00E8FDAC /* AppDelegate.swift */,
+				BF94687D1C07A26C00E8FDAC /* ViewController.swift */,
+				BF94687F1C07A26C00E8FDAC /* Assets.xcassets */,
+				BF9468811C07A26C00E8FDAC /* Main.storyboard */,
+				BF9468A61C07A31000E8FDAC /* Five Nights at Freddy's.ttf */,
+				BF9468841C07A26C00E8FDAC /* Info.plist */,
+			);
+			path = FNAF;
+			sourceTree = "<group>";
+		};
+		BF94688C1C07A26C00E8FDAC /* FNAFTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF94688D1C07A26C00E8FDAC /* FNAFTests.swift */,
+				BF94688F1C07A26C00E8FDAC /* Info.plist */,
+			);
+			path = FNAFTests;
+			sourceTree = "<group>";
+		};
+		BF9468971C07A26D00E8FDAC /* FNAFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9468981C07A26D00E8FDAC /* FNAFUITests.swift */,
+				BF94689A1C07A26D00E8FDAC /* Info.plist */,
+			);
+			path = FNAFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9468771C07A26C00E8FDAC /* FNAF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF94689D1C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAF" */;
+			buildPhases = (
+				BF9468741C07A26C00E8FDAC /* Sources */,
+				BF9468751C07A26C00E8FDAC /* Frameworks */,
+				BF9468761C07A26C00E8FDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNAF;
+			productName = FNAF;
+			productReference = BF9468781C07A26C00E8FDAC /* FNAF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9468881C07A26C00E8FDAC /* FNAFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9468A01C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAFTests" */;
+			buildPhases = (
+				BF9468851C07A26C00E8FDAC /* Sources */,
+				BF9468861C07A26C00E8FDAC /* Frameworks */,
+				BF9468871C07A26C00E8FDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF94688B1C07A26C00E8FDAC /* PBXTargetDependency */,
+			);
+			name = FNAFTests;
+			productName = FNAFTests;
+			productReference = BF9468891C07A26C00E8FDAC /* FNAFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF9468931C07A26C00E8FDAC /* FNAFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9468A31C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAFUITests" */;
+			buildPhases = (
+				BF9468901C07A26C00E8FDAC /* Sources */,
+				BF9468911C07A26C00E8FDAC /* Frameworks */,
+				BF9468921C07A26C00E8FDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9468961C07A26C00E8FDAC /* PBXTargetDependency */,
+			);
+			name = FNAFUITests;
+			productName = FNAFUITests;
+			productReference = BF9468941C07A26C00E8FDAC /* FNAFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9468701C07A26C00E8FDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Panja;
+				TargetAttributes = {
+					BF9468771C07A26C00E8FDAC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J53YREEDJC;
+					};
+					BF9468881C07A26C00E8FDAC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BF9468771C07A26C00E8FDAC;
+					};
+					BF9468931C07A26C00E8FDAC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BF9468771C07A26C00E8FDAC;
+					};
+				};
+			};
+			buildConfigurationList = BF9468731C07A26C00E8FDAC /* Build configuration list for PBXProject "FNAF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF94686F1C07A26C00E8FDAC;
+			productRefGroup = BF9468791C07A26C00E8FDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9468771C07A26C00E8FDAC /* FNAF */,
+				BF9468881C07A26C00E8FDAC /* FNAFTests */,
+				BF9468931C07A26C00E8FDAC /* FNAFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9468761C07A26C00E8FDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9468A71C07B41000E8FDAC /* Five Nights at Freddy's.ttf in Resources */,
+				BF9468801C07A26C00E8FDAC /* Assets.xcassets in Resources */,
+				BF9468831C07A26C00E8FDAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468871C07A26C00E8FDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468921C07A26C00E8FDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9468741C07A26C00E8FDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF94687E1C07A26C00E8FDAC /* ViewController.swift in Sources */,
+				BF94687C1C07A26C00E8FDAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468851C07A26C00E8FDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF94688E1C07A26C00E8FDAC /* FNAFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9468901C07A26C00E8FDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9468991C07A26D00E8FDAC /* FNAFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF94688B1C07A26C00E8FDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9468771C07A26C00E8FDAC /* FNAF */;
+			targetProxy = BF94688A1C07A26C00E8FDAC /* PBXContainerItemProxy */;
+		};
+		BF9468961C07A26C00E8FDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9468771C07A26C00E8FDAC /* FNAF */;
+			targetProxy = BF9468951C07A26C00E8FDAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9468811C07A26C00E8FDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9468821C07A26C00E8FDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF94689B1C07A26D00E8FDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF94689C1C07A26D00E8FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF94689E1C07A26D00E8FDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF94689F1C07A26D00E8FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF9468A11C07A26D00E8FDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FNAF.app/Contents/MacOS/FNAF";
+			};
+			name = Debug;
+		};
+		BF9468A21C07A26D00E8FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FNAF.app/Contents/MacOS/FNAF";
+			};
+			name = Release;
+		};
+		BF9468A41C07A26D00E8FDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FNAF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF9468A51C07A26D00E8FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FNAFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.FNAFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FNAF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9468731C07A26C00E8FDAC /* Build configuration list for PBXProject "FNAF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF94689B1C07A26D00E8FDAC /* Debug */,
+				BF94689C1C07A26D00E8FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF94689D1C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF94689E1C07A26D00E8FDAC /* Debug */,
+				BF94689F1C07A26D00E8FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9468A01C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9468A11C07A26D00E8FDAC /* Debug */,
+				BF9468A21C07A26D00E8FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9468A31C07A26D00E8FDAC /* Build configuration list for PBXNativeTarget "FNAFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9468A41C07A26D00E8FDAC /* Debug */,
+				BF9468A51C07A26D00E8FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9468701C07A26C00E8FDAC /* Project object */;
+}
